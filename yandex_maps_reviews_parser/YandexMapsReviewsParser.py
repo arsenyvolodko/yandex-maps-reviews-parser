@@ -4,8 +4,8 @@ import time
 from bs4 import BeautifulSoup
 from selenium import webdriver, common
 
-from consts import YANDEX_MAPS_API_URL, YANDEX_MAPS_API_TOKEN, URL
-from yandex_maps_reviews_parser.Review import Review
+from .consts import YANDEX_MAPS_API_URL, YANDEX_MAPS_API_TOKEN, URL
+from .Review import Review
 
 
 class YandexMapsReviewsParser:
